@@ -1,0 +1,370 @@
+Batch ID: 
+Requests: null
+Batch ID: 
+Requests: null
+Batch ID: 9646fdcc-745f-474b-9d18-225c4aed1151
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:30:00",
+        "duration": "120"
+    }
+]
+Batch ID: 57b76f1a-65b7-41b5-b3f3-ef493f008b8d
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:32:00",
+        "duration": "121"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:33:00",
+        "duration": "180"
+    }
+]
+Batch ID: 485d273f-a7b7-40c5-8674-2a90f16512f2
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:55:00",
+        "duration": "114"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:56:00",
+        "duration": "180"
+    }
+]
+Batch ID: ccd78425-b61c-437a-a305-22aaa8b4cf7f
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:07:00",
+        "duration": "173"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "12:56:00",
+        "duration": "72"
+    }
+]
+Batch ID: ca55831d-4ad3-4d09-9147-c9159fb6ad67
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:14:00",
+        "duration": "166"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:14:00",
+        "duration": "180"
+    }
+]
+Batch ID: 61cb1542-1bd1-4157-8897-e7055ba51aa4
+Requests: [
+    {
+        "day": "friday",
+        "shift": "First Shift",
+        "start_time": "07:30:00",
+        "duration": "120"
+    },
+    {
+        "day": "saturday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "240"
+    }
+]
+Batch ID: 95add490-ce64-46f3-82bf-787fd9287e51
+Requests: [
+    {
+        "day": "monday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "180"
+    },
+    {
+        "day": "wednesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "180"
+    },
+    {
+        "day": "thursday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "180"
+    }
+]
+Batch ID: e4501bd2-ab19-4095-84ca-446ae1f7853d
+Requests: [
+    {
+        "day": "monday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "240"
+    },
+    {
+        "day": "thursday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "240"
+    }
+]
+Batch ID: c983ada5-3915-4b7b-ae94-822b38433025
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:04:00",
+        "duration": "120"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:04:00",
+        "duration": "120"
+    }
+]
+Batch ID: 00b5522a-7f9b-4192-bc5e-4a8673a5a4f3
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:59:00",
+        "duration": "120"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "239"
+    }
+]
+Batch ID: 8896d571-11e1-440b-a2d7-750597ceb49b
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:29:00",
+        "duration": "151"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "150"
+    }
+]
+Batch ID: 98ee5e09-50fd-4861-b8a1-cd4e120059f4
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:21:00",
+        "duration": "159"
+    }
+]
+Batch ID: 00bd1746-5d2b-46d3-8c8f-92facd4ee91a
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:55:00",
+        "duration": "125"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "12:55:00",
+        "duration": "125"
+    }
+]
+Batch ID: 9fa7d37c-2b52-4d5d-9a43-f5cb86d6352e
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:04:00",
+        "duration": "120"
+    }
+]
+Batch ID: e97124a4-1fbf-400a-9717-e46b6ba1bb5f
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "06:00:00",
+        "duration": "240"
+    },
+    {
+        "day": "thursday",
+        "shift": "First Shift",
+        "start_time": "06:00:00",
+        "duration": "240"
+    }
+]
+Batch ID: 279bc81c-565b-4a5c-bd33-b2311923ca96
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "06:00:00",
+        "duration": "240"
+    },
+    {
+        "day": "wednesday",
+        "shift": "First Shift",
+        "start_time": "06:00:00",
+        "duration": "240"
+    }
+]
+Batch ID: 7e6d3fd9-dc22-43e4-8342-39115df0c007
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:00:00",
+        "duration": "180"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "240"
+    },
+    {
+        "day": "thursday",
+        "shift": "First Shift",
+        "start_time": "07:27:00",
+        "duration": "153"
+    }
+]
+Batch ID: 2d1655d1-6575-41be-92ab-c7c7eba79fc7
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:13:00",
+        "duration": "120"
+    },
+    {
+        "day": "wednesday",
+        "shift": "First Shift",
+        "start_time": "07:13:00",
+        "duration": "60"
+    }
+]
+Batch ID: a04417df-7d77-40ed-8023-23f87d54134d
+Requests: [
+    {
+        "day": "friday",
+        "shift": "First Shift",
+        "start_time": "07:27:00",
+        "duration": "125"
+    }
+]
+Batch ID: d3c76965-eb85-424e-8c90-2bb1b41feff9
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "06:30:00",
+        "duration": "90"
+    }
+]
+Batch ID: 2554398f-e353-4b78-ae98-068761526709
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:00:00",
+        "duration": "180"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "180"
+    }
+]
+Batch ID: 0ae37636-301f-4d45-ba43-13625596f955
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:08:00",
+        "duration": "172"
+    },
+    {
+        "day": "tuesday",
+        "shift": "Second Shift",
+        "start_time": "11:00:00",
+        "duration": "240"
+    },
+    {
+        "day": "thursday",
+        "shift": "First Shift",
+        "start_time": "07:08:00",
+        "duration": "172"
+    },
+    {
+        "day": "saturday",
+        "shift": "First Shift",
+        "start_time": "07:08:00",
+        "duration": "172"
+    }
+]
+Batch ID: 33aa536b-079f-45a7-81f4-8a3fa364e97b
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:42:00",
+        "duration": "120"
+    },
+    {
+        "day": "thursday",
+        "shift": "First Shift",
+        "start_time": "07:42:00",
+        "duration": "120"
+    },
+    {
+        "day": "saturday",
+        "shift": "Second Shift",
+        "start_time": "11:42:00",
+        "duration": "180"
+    }
+]
+Batch ID: 389712dc-4d9c-4e02-a1da-3df854363e1c
+Requests: [
+    {
+        "day": "monday",
+        "shift": "First Shift",
+        "start_time": "07:35:00",
+        "duration": "120"
+    },
+    {
+        "day": "wednesday",
+        "shift": "Second Shift",
+        "start_time": "11:35:00",
+        "duration": "180"
+    },
+    {
+        "day": "friday",
+        "shift": "First Shift",
+        "start_time": "07:35:00",
+        "duration": "120"
+    }
+]
