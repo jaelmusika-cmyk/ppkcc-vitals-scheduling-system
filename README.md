@@ -1,5 +1,3 @@
-Repository 1: DialiEase Core System (Desktop/Web)
-
 # DialiEase: Hemodialysis Vitals Scheduling and Monitoring System
 
 DialiEase is a comprehensive web and mobile ecosystem designed to streamline dialysis session scheduling, automate nurse-patient assignments, and log real-time patient vitals. This repository contains the core desktop-accessible management system tailored for **Administrators** and **Nurses**. 
@@ -40,14 +38,13 @@ The system operates as a unified platform: Admins and Nurses manage configuratio
 To run and evaluate this portfolio ecosystem locally, follow these comprehensive setup steps:
 
 ### 1. Environment Simulation Setup
-1. Download and install **XAMPP** (with PHP 8.x compatibility).
-2. Clone this repository directly into the local root server directory:
-```bash
-   # For standard XAMPP installations
+1. Download and install XAMPP (with PHP 8.x compatibility).
+2. Clone this repository directly into your local root server directory:
+   ```bash
    cd c:/xampp/htdocs/
    git clone [https://github.com/YOUR_USERNAME/ppkcc-vitals-scheduling-system.git](https://github.com/YOUR_USERNAME/ppkcc-vitals-scheduling-system.git) dialiease
 
-### 2. Relational Database Initialization
+2. Relational Database Initialization
 Launch the XAMPP Control Panel and start both the Apache and MySQL service modules.
 
 Open a web browser and navigate to the database management dashboard: http://localhost/phpmyadmin/.
@@ -58,14 +55,12 @@ Open the dialiease_db database, click the Import tab at the top layout, browse t
 
 3. Database Configuration Update
 Open config/db.php in a text editor and verify the local pointer variables match the environment setup:
-
 <?php
-// config/db.php
 try {
     $host = 'localhost';
     $dbname = 'dialiease_db';
     $username = 'root';
-    $password = ''; // Default XAMPP configurations use an empty MySQL password
+    $password = ''; 
 
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -77,18 +72,21 @@ try {
 
 4. Running the Local Initializer Script
 To populate a fresh default administrative tier credential outside the pre-seeded users, trigger the embedded PHP script directly in the browser:
-
 http://localhost/dialiease/create_admin.php
 Output verification: Admin account created successfully!
 
-🔐 Credentials Checklist for ReviewersThe system layout can be accessed locally using either the developer initializer or the pre-seeded dummy portfolio configurations:RoleEmail Access / UsernamePasswordSetting Module TargetAdminadmin@dialiease.compassword123/admin/dashboard.phpNursejane.nurse@dialiease.compassword123/nurse/dashboard.phpNote: Patients attempting to log into this web platform will receive a redirection error prompting them to use the Android companion application.📧 Outbound Email Configuration (OTP Verification)The system contains an automated mechanism for forgot-password workflows utilizing secure OTP delivery via PHPMailer. To test this feature locally, update the setup variables within forgot_password.php:
+🔐 Credentials Checklist for Reviewers
+The system layout can be accessed locally using either the developer initializer or the pre-seeded dummy portfolio configurations:
+Role,Email Access / Username,Password,Setting Module Target
+Admin,admin@dialiease.com,password123,/admin/dashboard.php
+Nurse,jane.nurse@dialiease.com,password123,/nurse/dashboard.php
 
-RoleEmail Access / UsernamePasswordSetting Module TargetAdminadmin@dialiease.compassword123/admin/dashboard.phpNursejane.nurse@dialiease.compassword123/nurse/dashboard.phpNote: Patients attempting to log into this web platform will receive a redirection error prompting them to use the Android companion application.📧 Outbound Email Configuration (OTP Verification)The system contains an automated mechanism for forgot-password workflows utilizing secure OTP delivery via PHPMailer. To test this feature locally, update the setup variables within forgot_password.php:
-// Location snippet inside forgot_password.php
+📧 Outbound Email Configuration (OTP Verification)
+The system contains an automated mechanism for forgot-password workflows utilizing secure OTP delivery via PHPMailer. To test this feature locally, update the setup variables within forgot_password.php:
 $mail->isSMTP();
-$mail->Host = 'smtp.gmail.com';             // SMTP server provider
+$mail->Host = 'smtp.gmail.com';             
 $mail->SMTPAuth = true;
-$mail->Username = 'YOUR_EMAIL@gmail.com';    // Authenticated mailbox account
-$mail->Password = 'YOUR_APP_PASSWORD';       // Secure generated application access key
-$mail->SMTPSecure = 'tls';                  // TLS structural standard encryption
-$mail->Port = 587;                          // Port mapping for connection standard
+$mail->Username = 'YOUR_EMAIL@gmail.com';    
+$mail->Password = 'YOUR_APP_PASSWORD';       
+$mail->SMTPSecure = 'tls';                  
+$mail->Port = 587;
