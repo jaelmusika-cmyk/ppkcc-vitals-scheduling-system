@@ -47,7 +47,7 @@ To run and evaluate this portfolio ecosystem locally, follow these comprehensive
    cd c:/xampp/htdocs/
    git clone [https://github.com/YOUR_USERNAME/ppkcc-vitals-scheduling-system.git](https://github.com/YOUR_USERNAME/ppkcc-vitals-scheduling-system.git) dialiease
 
-2. Relational Database Initialization
+### 2. Relational Database Initialization
 Launch the XAMPP Control Panel and start both the Apache and MySQL service modules.
 
 Open a web browser and navigate to the database management dashboard: http://localhost/phpmyadmin/.
